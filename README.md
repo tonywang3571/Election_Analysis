@@ -3,7 +3,7 @@
 ## Overview of Project
 
 **Purpose:**  
-A Colorado Board of Elections employee, Tom, is asking for assistance is completing an election audit for a recent local congressional election. For this analysis, we would need to compile a list of candidates, votes for each candidate, precent of votes for each candidate, and providing the final results of election. The purpose of this analysis is to assist Tom with calculating and determine the winner of the election based on popular vote. 
+A Colorado Board of Elections employee, Tom, is asking for assistance in completing an election audit for a recent local congressional election. For this analysis, we would need to compile a list of candidates, votes for each candidate, precent of votes for each candidate, and providing the final results to determine the winner of the election. The purpose of this analysis is to assist Tom with analyzing and calculating the data to determine the winner of the election based on popular vote. 
 
 ## Resources
 - Data Source: election_results.csv
@@ -12,8 +12,9 @@ A Colorado Board of Elections employee, Tom, is asking for assistance is complet
 ## Analysis and Results
 
 **Analysis**  
-For this analysis, we were provided with a set of data, election_results.csv, which had information on voter ID, the county, and the candidate that the voter was voting for. With the data set, the candidate that the voter was voting for is the most important data that we need to extract and use for our analysis, as our goal was to calculate votes, percentages of votes, and determininng the winner based on popular vote. Using a simple `for loop`, we are able to calculate total number of votes. Within the `for loop` we used a `if-then` statement to acquire the candidates into a list to populate the number of votes for each candidate.
+For this analysis, we were provided with a set of data, election_results.csv, which had information on voter ID, voter county, and the candidate that the voter was voting for. With the data set, the candidate that the voter was voting for is the most important data that we need to extract and use for our analysis, as our goal was to calculate votes, percentage of votes, and determininng the winner based on popular vote. Using a simple `for loop`, we are able to calculate total number of votes. Within the `for loop` we used an `if-then` statement to determine the candidates and added them into a list. From there, we were again able to use the same `for loop` to sort and count the number of votes for each candidate. Once we have the total number of votes per candidate as well as the total number of votes for the election, we can calculate the percentage of votes for each candidate and determine the winner based on the total number of votes, as well as the percent of votes, for a particular candidate. The winner would have both the highest total number of votes and the percentage of votes.
 
+#Continue to edit#
 **Analysis of DQ Ticker (2017 and 2018):**  
 Steve's parents were wanting to invest in DQ stock. Looking back to the charts above, if Steve's parents invested in DQ in 2017, that would be a good decision as we saw an increase in return of 199%. The opposite would be true if they invested in 2018 with a decrease in return of 62%. Obviously we don't know what stock prices will be in the future, but looking at past results can give a glimps of what it might look like in the future, or at least treads of the expected result. By looking at past results, Steve would be able to give an informed input on helping his parents make knowledgeable decisions on investments.
 
