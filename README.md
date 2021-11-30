@@ -1,3 +1,41 @@
 # Election_Analysis
 
-Testing commit
+## Overview of Project
+
+**Purpose:**  
+A Colorado Board of Elections employee, Tom, is asking for assistance is completing an election audit for a recent local congressional election. For this analysis, we would need to compile a list of candidates, votes for each candidate, precent of votes for each candidate, and providing the final results of election. The purpose of this analysis is to assist Tom with calculating and determine the winner of the election based on popular vote. 
+
+## Resources
+- Data Source: election_results.csv
+- Software: Python 3.10.0, Visual Studio Code, 1.62.3
+
+## Analysis and Results
+
+**Analysis**  
+For this analysis, we were provided with a set of data, election_results.csv, which had information on voter ID, the county, and the candidate that the voter was voting for. With the data set, the candidate that the voter was voting for is the most important data that we need to extract and use for our analysis, as our goal was to calculate votes, percentages of votes, and determininng the winner based on popular vote. Using a simple `for loop`, we are able to calculate total number of votes. Within the `for loop` we used a `if-then` statement to acquire the candidates into a list to populate the number of votes for each candidate.
+
+**Analysis of DQ Ticker (2017 and 2018):**  
+Steve's parents were wanting to invest in DQ stock. Looking back to the charts above, if Steve's parents invested in DQ in 2017, that would be a good decision as we saw an increase in return of 199%. The opposite would be true if they invested in 2018 with a decrease in return of 62%. Obviously we don't know what stock prices will be in the future, but looking at past results can give a glimps of what it might look like in the future, or at least treads of the expected result. By looking at past results, Steve would be able to give an informed input on helping his parents make knowledgeable decisions on investments.
+
+**Marco and Refractoring Macro:**  
+During this project, we were able to write Macros in VBA to assist with our analaysis in analyzing our data to provide accurate results for Steve, as well as saving time from sorting through our data by tickers, daily volume, and the return. Another benefit with our Macro scripts, we can use them in the future when we are wanting to perform the same analaysis but for different years. We also refactored our macro to run faster and more efficient as noted in the images below. This is useful if our dataset gets larger in the future.  
+<img src="Resources/VBA_Challenge_2017(slow).PNG" width="400"> <img src="Resources/VBA_Challenge_2018(slow).PNG" width="400">
+<img src="Resources/VBA_Challenge_2017(fast).PNG" width="400"> <img src="Resources/VBA_Challenge_2018(fast).PNG" width="400">
+
+
+## Challenge Overview
+## Challenge Summary
+
+- Advantages and Disadvantages of refactoring code (in general)  
+In a sense, why fix what's not broken? An advantage of refactoring code is that it will run faster, as noted in the images above on time elasped for the scripts. Another advantage to refactoring code is to clean up the design of the code, so it would be easier to maintain and read for future users. One disadvantage of refactoring code is that requires time to edit and clean up the code so that it would be easier to use. Another disadvantage that I personally encountered was that I was getting bugs and had to debug the errors that occurred when refactoring the code, which was time consuming and had to take up other resources to solve and fix the problem.
+
+
+- Advantages and Disadvantages of the original and refactored VBA script  
+An advantage of the refactored VBA script, was that it ran faster compared to the origial script, so I guess that would also be a disadvantage of the original code. A disadvantage of the refactored script would be that bugs could occur when changing or modifying the code. I personally was getting bugs and took a while for me to identify and fix the errors that occurred, which took time and resources. In terms of understanding how the code works, this would allow the user to understand how or why the refactored code/script would run faster and efficiently.
+
+
+
+### Codes Used
+<img src="Resources/Original_vs_Refactored_Code.PNG" width="800">  
+<img src="Resources/Original_vs_Refactored_Code_2.PNG" width="800">  
+<img src="Resources/Original_vs_Refactored_Code_3.PNG" width="800"> 
