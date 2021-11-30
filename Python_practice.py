@@ -15,5 +15,9 @@ for group in voting_data:
 
 
 
+bag = [{"name":"Aviar", "stats": 2301},
+                {"name":"Roc3", "stats": 5503},
+                {"name":"Teebird", "stats": 7402}]
 
-
+for discs in bag:
+    print(f"{discs['name']} has these stat numbers {discs['stats']}.")
