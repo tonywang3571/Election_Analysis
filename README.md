@@ -3,7 +3,7 @@
 ## Overview of Project
 
 **Purpose:**  
-A Colorado Board of Elections employee, Tom, is asking for assistance in completing an election audit for a recent local congressional election. For this analysis, we would need to compile a list of candidates, votes for each candidate, precent of votes for each candidate, and providing the final results to determine the winner of the election. Although we completed our initial audit, the election commision requested additional data related county turnouts, voter turnouts for each county, percentage of votes for each county, and the highest county turnout. The purpose of this analysis is to assist Tom with analyzing and calculating the data to determine the winner of the election based on popular vote, as well as data calculating data for county turnouts and determining the highest county turnout.
+A Colorado Board of Elections employee, Tom, is asking for assistance in completing an election audit for a recent local congressional election. For this analysis, we would need to compile a list of candidates, votes for each candidate, precent of votes for each candidate, and providing the final results to determine the winner of the election. Although we completed our initial audit, the election commission requested additional data related county turnouts, voter turnouts for each county, percentage of votes for each county, and the highest county turnout. The purpose of this analysis is to assist Tom with analyzing and calculating the data to determine the winner of the election based on popular vote, as well as data calculating data for county turnouts and determining the highest county turnout.
 
 ## Resources:
 - Data Source: election_results.csv
@@ -12,7 +12,15 @@ A Colorado Board of Elections employee, Tom, is asking for assistance in complet
 ## Analysis and Results
 
 **Analysis:**  
-For this analysis, we were provided with a set of data, election_results.csv, which had information on voter ID, voter county, and the candidate that the voter was voting for. With the data set, the candidate that the voter was voting for is the most important data that we need to extract and use for our analysis, as our goal was to calculate votes, percentage of votes, and determininng the winner based on popular vote. Using a simple `for loop`, we are able to calculate total number of votes. Within the `for loop` we used an `if statement` to determine the candidates and added them into a list. From there, we were again able to use the same `for loop` to sort and count the number of votes for each candidate. Once we have the total number of votes per candidate as well as the total number of votes for the election, we can calculate the percentage of votes for each candidate and determine the winner based on the total number of votes, as well as the percent of votes, for a particular candidate. The winner would have both the highest total number of votes and the percentage of votes.
+For this analysis, we were provided with a set of data, election_results.csv, which had information on voter ID, voter county, and the candidate that the voter was voting for. With the data set, the candidate that the voter was voting the county of where the voter was voting from were the important data that we need to extract and use for our analysis. Using a simple `for loop` in Python, we are able to calculate total number of votes by calculating the number of rows in our dataset, omitting the header row from our count. Within the `for loop` we used an `if statement` to determine the candidates and added them into a list. From there, we used the same `for loop` to sort all of the votes by candidates to determine number of votes for each candidate. Once we have the number of votes per candidate as well as the total number of votes for the election, we can calculate the percentage of votes for each candidate and determine the winner based on the total number of votes and the percent of votes for each candidate. The winner would have both the highest total number of votes and the highest percentage of votes.  
+<img src="Resources/Votes_per_Candidate.PNG">  
+<img src="Resources/Percent_per_Candidate.PNG">  
+<img src="Resources/Determining_winner.PNG">  
+
+We used similar formulas to perform our analysis and calculating the county data that was also required by the election commission, voter turnout for each county, percentage of voters for each county, and the largest county turnout.
+<img src="Resources/Votes_per_County.PNG">  
+<img src="Resources/Percent_per_County_and_Largest_County.PNG">  
+
 
 **Results:**  
 - How many votes were cast in this congressional election?  
@@ -44,8 +52,9 @@ An advantage of the refactored VBA script, was that it ran faster compared to th
 
 
 
-### Codes Used
-<img src="Resources/Count_votes_sort_candidates.PNG">  
-<img src="Resources/Calculations.PNG">  
-<img src="Resources/Determining_winner.PNG">  
-<img src="Resources/Declaring_winner.PNG">  
+### Codes Used  
+<img src="Resources/Code1.PNG">  
+<img src="Resources/Code2.PNG">  
+<img src="Resources/Code3.PNG">  
+<img src="Resources/Code4.PNG">  
+<img src="Resources/Code5.PNG">  
