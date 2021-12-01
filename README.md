@@ -15,19 +15,19 @@ A Colorado Board of Elections employee, Tom, is asking for assistance in complet
 For this analysis, we were provided with a set of data, election_results.csv, which had information on voter ID, voter county, and the candidate that the voter was voting for. With the data set, the candidate that the voter was voting for is the most important data that we need to extract and use for our analysis, as our goal was to calculate votes, percentage of votes, and determininng the winner based on popular vote. Using a simple `for loop`, we are able to calculate total number of votes. Within the `for loop` we used an `if statement` to determine the candidates and added them into a list. From there, we were again able to use the same `for loop` to sort and count the number of votes for each candidate. Once we have the total number of votes per candidate as well as the total number of votes for the election, we can calculate the percentage of votes for each candidate and determine the winner based on the total number of votes, as well as the percent of votes, for a particular candidate. The winner would have both the highest total number of votes and the percentage of votes.
 
 **Results:**  
-- How many votes were cast in this congressional election?
+- How many votes were cast in this congressional election?  
 A total of 369,711 votes that were cast during this congressional election
 
-- Breakdown of the number of votes and percentage of total votes for each county in the precinct
+- Breakdown of the number of votes and percentage of total votes for each county in the precinct.  
 There were three different counties that participated in this congressional election, Jefferson, Denver, and Arapahoe. Jefferson had 10.5% (or 38,855) of the votes, while Denver and Arapahoe had 82.8% (306,055) and 6.7% (24,801), respectively, of the votes.
 
-- Which county had the largest number of votes?
+- Which county had the largest number of votes?  
 Denver had the largest number of votes, 306,055 votes, which is 82.8% of the total votes.
 
-- Breakdown of the number of votes and percentage of total votes for each candidate
+- Breakdown of the number of votes and percentage of total votes for each candidate.  
 Three different candidates ran for office in this election, Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane. Stockham recieved 23.0% of votes, which consisted of 85,213 of the total votes, while DeGette and Doane recieved 73.8% (272,892) and 3.1% (11,606) of votes, respectively.
 
-- Which candidate won the election?
+- Which candidate won the election?  
 The winner of this election was Diana DeGette with a total of 272,892 votes, which was 73.8% of the total number of votes.
 <img src="Resources/Results_County_and_Candidate.PNG"> 
 
