@@ -4,6 +4,9 @@
     # Total number of votes each candidate received
     # Percentage of votes each candidate won
     # Winner of the election based on popular vote
+        # Voter turnout for each county
+        # Percentage of votes from each county out of total count
+        # county with the highest turnout
 
 #Adding dependencies
 import csv
