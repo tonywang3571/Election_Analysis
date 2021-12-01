@@ -16,7 +16,7 @@ For this analysis, we were provided with a set of data, election_results.csv, wh
 
 **Results:**  
 Tallying up all of the votes for all of the candidates in this election, we counted a total of 369,711 votes. Next, we sorted the votes by candidates and was able to calculate the percentage of the votes for each candidate. From there, it was easy to see a clear winner of this election based on popular vote, Diana DeGetter with 272,892 votes which is 73.8% of all votes.  
-<img src="Resources/Results.PNG" width="400">  
+<img src="Resources/Results.PNG">  
 
 
 ## Challenge Overview
@@ -32,6 +32,6 @@ An advantage of the refactored VBA script, was that it ran faster compared to th
 
 
 ### Codes Used
-<img src="Resources/Count_votes_sort_candidates.PNG" width="600">  
-<img src="Resources/Calculations.PNG" width="700">  
-<img src="Resources/Determine_winner.PNG" width="800" height="600">  
+<img src="Resources/Count_votes_sort_candidates.PNG">  
+<img src="Resources/Calculations.PNG">  
+<img src="Resources/Determine_winner.PNG">  
