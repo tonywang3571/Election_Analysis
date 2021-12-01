@@ -17,7 +17,7 @@ For this analysis, we were provided with a set of data, election_results.csv, wh
 <img src="Resources/Percent_per_Candidate.PNG">  
 <img src="Resources/Determining_winner.PNG">  
 
-We used similar formulas to perform our analysis and calculating the county data that was also required by the election commission, voter turnout for each county, percentage of voters for each county, and the largest county turnout.
+We used similar formulas to perform our analysis and calculating the county data that was also required by the election commission, voter turnout for each county, percentage of voters for each county, and the largest county turnout.  
 <img src="Resources/Votes_per_County.PNG">  
 <img src="Resources/Percent_per_County_and_Largest_County.PNG">  
 
@@ -36,8 +36,8 @@ Denver had the largest number of votes, 306,055 votes, which is 82.8% of the tot
 Three different candidates ran for office in this election, Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane. Stockham recieved 23.0% of votes, which consisted of 85,213 of the total votes, while DeGette and Doane recieved 73.8% (272,892) and 3.1% (11,606) of votes, respectively.
 
 - Which candidate won the election?  
-The winner of this election was Diana DeGette with a total of 272,892 votes, which was 73.8% of the total number of votes.
-<img src="Resources/Results_County_and_Candidate.PNG"> 
+The winner of this election was Diana DeGette with a total of 272,892 votes, which was 73.8% of the total number of votes.  
+<img src="Resources/Results_County_and_Candidate.PNG">  
 
 
 ## Challenge Overview
@@ -53,8 +53,8 @@ An advantage of the refactored VBA script, was that it ran faster compared to th
 
 
 ### Codes Used  
-<img src="Resources/Code1.PNG">  
-<img src="Resources/Code2.PNG">  
-<img src="Resources/Code3.PNG">  
-<img src="Resources/Code4.PNG">  
-<img src="Resources/Code5.PNG">  
+<img src="Resources/Code1.PNG">
+<img src="Resources/Code2.PNG">
+<img src="Resources/Code3.PNG">
+<img src="Resources/Code4.PNG">
+<img src="Resources/Code5.PNG">
