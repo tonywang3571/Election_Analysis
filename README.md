@@ -16,9 +16,6 @@ For this analysis, we were provided with a set of data, election_results.csv, wh
 
 **Results:**  
 Tallying up all of the votes for all of the candidates in this election, we counted a total of 369,711 votes. Next, we sorted the votes by candidates and was able to calculate the percentage of the votes for each candidate. From there, it was easy to see a clear winner of this election based on popular vote, Diana DeGetter with 272,892 votes which is 73.8% of all votes.
-
-**Marco and Refractoring Macro:**  
-During this project, we were able to write Macros in VBA to assist with our analaysis in analyzing our data to provide accurate results for Steve, as well as saving time from sorting through our data by tickers, daily volume, and the return. Another benefit with our Macro scripts, we can use them in the future when we are wanting to perform the same analaysis but for different years. We also refactored our macro to run faster and more efficient as noted in the images below. This is useful if our dataset gets larger in the future.  
 <img src="Resources/VBA_Challenge_2017(slow).PNG" width="400"> <img src="Resources/VBA_Challenge_2018(slow).PNG" width="400">
 <img src="Resources/VBA_Challenge_2017(fast).PNG" width="400"> <img src="Resources/VBA_Challenge_2018(fast).PNG" width="400">
 
