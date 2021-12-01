@@ -34,4 +34,4 @@ An advantage of the refactored VBA script, was that it ran faster compared to th
 ### Codes Used
 <img src="Resources/Count_votes_sort_candidates.PNG" width="800">  
 <img src="Resources/Calculations.PNG" width="800">  
-<img src="Resources/Determin_winner.PNG" width="800"> 
+<img src="Resources/Determine_winner.PNG" width="800">  
