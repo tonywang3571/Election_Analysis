@@ -1,9 +1,9 @@
 # Data need to retrieve.
-# Total number of votes cast
-# A complete list of candidates who received votes
-# Total number of votes each candidate received
-# Percentage of votes each candidate won
-# Winner of the election based on popular vote
+    # Total number of votes cast
+    # A complete list of candidates who received votes
+    # Total number of votes each candidate received
+    # Percentage of votes each candidate won
+    # Winner of the election based on popular vote
 
 #Adding dependencies
 import csv

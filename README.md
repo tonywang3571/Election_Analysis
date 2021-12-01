@@ -15,9 +15,8 @@ A Colorado Board of Elections employee, Tom, is asking for assistance in complet
 For this analysis, we were provided with a set of data, election_results.csv, which had information on voter ID, voter county, and the candidate that the voter was voting for. With the data set, the candidate that the voter was voting for is the most important data that we need to extract and use for our analysis, as our goal was to calculate votes, percentage of votes, and determininng the winner based on popular vote. Using a simple `for loop`, we are able to calculate total number of votes. Within the `for loop` we used an `if statement` to determine the candidates and added them into a list. From there, we were again able to use the same `for loop` to sort and count the number of votes for each candidate. Once we have the total number of votes per candidate as well as the total number of votes for the election, we can calculate the percentage of votes for each candidate and determine the winner based on the total number of votes, as well as the percent of votes, for a particular candidate. The winner would have both the highest total number of votes and the percentage of votes.
 
 **Results:**  
-Tallying up all of the votes for all of the candidates in this election, we counted a total of 369,711 votes. Next, we sorted the votes by candidates and was able to calculate the percentage of the votes for each candidate. From there, it was easy to see a clear winner of this election based on popular vote, Diana DeGetter with 272,892 votes which is 73.8% of all votes.
-<img src="Resources/VBA_Challenge_2017(slow).PNG" width="400"> <img src="Resources/VBA_Challenge_2018(slow).PNG" width="400">
-<img src="Resources/VBA_Challenge_2017(fast).PNG" width="400"> <img src="Resources/VBA_Challenge_2018(fast).PNG" width="400">
+Tallying up all of the votes for all of the candidates in this election, we counted a total of 369,711 votes. Next, we sorted the votes by candidates and was able to calculate the percentage of the votes for each candidate. From there, it was easy to see a clear winner of this election based on popular vote, Diana DeGetter with 272,892 votes which is 73.8% of all votes.  
+<img src="Resources/Results.PNG" width="400">  
 
 
 ## Challenge Overview
