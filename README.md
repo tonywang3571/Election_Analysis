@@ -37,7 +37,7 @@ Three different candidates ran for office in this election, Charles Casper Stock
 
 - Which candidate won the election?  
 The winner of this election was Diana DeGette with a total of 272,892 votes, which was 73.8% of the total number of votes.  
-<img src="Resources/Terminal_Output.PNG">   
+<img src="Resources/Terminal_Output.PNG">  
 
 
 ## Challenge Summary
