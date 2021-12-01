@@ -40,21 +40,16 @@ The winner of this election was Diana DeGette with a total of 272,892 votes, whi
 <img src="Resources/Results_County_and_Candidate.PNG">  
 
 
-## Challenge Overview
 ## Challenge Summary
 
-- Advantages and Disadvantages of refactoring code (in general)  
-In a sense, why fix what's not broken? An advantage of refactoring code is that it will run faster, as noted in the images above on time elasped for the scripts. Another advantage to refactoring code is to clean up the design of the code, so it would be easier to maintain and read for future users. One disadvantage of refactoring code is that requires time to edit and clean up the code so that it would be easier to use. Another disadvantage that I personally encountered was that I was getting bugs and had to debug the errors that occurred when refactoring the code, which was time consuming and had to take up other resources to solve and fix the problem.
-
-
-- Advantages and Disadvantages of the original and refactored VBA script  
-An advantage of the refactored VBA script, was that it ran faster compared to the origial script, so I guess that would also be a disadvantage of the original code. A disadvantage of the refactored script would be that bugs could occur when changing or modifying the code. I personally was getting bugs and took a while for me to identify and fix the errors that occurred, which took time and resources. In terms of understanding how the code works, this would allow the user to understand how or why the refactored code/script would run faster and efficiently.
+**Summary**
+We used Python to write scripts and codes to assist with tallying up votes for each candidate and votes from different counties. From there, we were able to calculate percentage of votes for each candidate and percentage of votes from different counties. From there, we were able to determine a winner for the election based on popular votes when looking at the total votes and highest percentage of votes for each candidate. As well as calculating the largest county turnout. This script can be used not only for this election, but also for future elections as well. Using a dataset from a different election, or even a future election, we can use the same script to calculate the similar values for both votes per different candidates and for the voter turnouts for different counties. If a candidate were wanting to campaign in certain counties, for example, we can modify the script to give use votes or percentage of votes from specific counties per candidate. This may give us a better idea of where candidates may want to campign more in those areas to increase their votes. Another modification we can change in the script is to help use determine how many voters are actually voting when compared to a census on how many people are living in those counties. Some people may not be voting for different reasons, but would be beneficial to understand why they are not voting.
 
 
 
 ### Codes Used  
-<img src="Resources/Code1.PNG">
-<img src="Resources/Code2.PNG">
-<img src="Resources/Code3.PNG">
-<img src="Resources/Code4.PNG">
-<img src="Resources/Code5.PNG">
+<img src="Resources/Code1.PNG">  
+<img src="Resources/Code2.PNG">  
+<img src="Resources/Code3.PNG">  
+<img src="Resources/Code4.PNG">  
+<img src="Resources/Code5.PNG">  
